@@ -1,0 +1,39 @@
+/*
+ * All the <li> children of class "menu"
+ */
+.menu > li {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+/*
+ * All the <em> DESCENDANTS of class "other-list"
+ */
+.other-list em {
+  color: red;
+}
+
+/*
+ * <p> tag immediately after class "special-link"
+ */
+.special-link + p {
+  color: grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.no-margin {
+  /* Apply this to h1 AND h2 AND h3, etc. */
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
